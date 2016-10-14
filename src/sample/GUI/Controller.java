@@ -38,6 +38,8 @@ public class Controller {
         try {
             Main.getAccountService().addAmount(id, amount); // trying to make a query to database
             createAlert("OK", "" + amount + "  added to balance with ID = " + id);
+            idText.setText("");
+            amountText.setText("");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -53,6 +55,8 @@ public class Controller {
         String result = "";
         try {
             result = Main.getAccountService().getAmount(id).toString();
+            createAlert("OK", "Balance of account with ID = " + id + " received");
+            idTextQ.setText("");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -78,6 +82,9 @@ public class Controller {
         }
         if (!isOnlyDigits(s)) {
             return false;
+        }
+        if (s.length() < Constants.MAX_INT.length()) {
+            return true;
         }
         for (int index = 0; index < s.length(); index++) {
             if (s.charAt(index) < Constants.MAX_INT.charAt(index)) {

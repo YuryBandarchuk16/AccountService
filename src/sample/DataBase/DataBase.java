@@ -73,13 +73,24 @@ public class DataBase implements AccountService {
             }
             return 0L;
         } else {
+            boolean called = false;
             while (resultSet.next()) {
+                called = true;
                 Long result = resultSet.getLong("BALANCE");
                 if (result != null) {
                     return result;
                 }
             }
-            throw new SQLDataException("Oops, something went wrong while reading BALANCE for the given ID");
+            if (!called) {
+                try {
+                    addUser(id, 0L);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return 0L;
+            } else {
+                throw new SQLDataException("Oops, something went wrong while reading BALANCE for the given ID");
+            }
         }
     }
 
