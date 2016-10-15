@@ -27,13 +27,27 @@ public class DataBase implements AccountService {
     }
 
     public void createTable() throws SQLException {
-        String sql = "CREATE TABLE AccountService\n" +
+        DatabaseMetaData databaseMetaData = connection.getMetaData();
+        resultSet = databaseMetaData.getTables(null, null, "%", null);
+        boolean containsRequiredTable = false;
+        while (resultSet.next()) {
+            if (Constants.TABLE_NAME.toLowerCase().equals(resultSet.getString(3))) {
+                containsRequiredTable = true;
+                break;
+            }
+        }
+        if (containsRequiredTable) {
+            System.out.println("This table has been already created");
+            return;
+        }
+        String sql = "CREATE TABLE " + Constants.TABLE_NAME + "\n" +
                 "(\n" +
                 "ID INT,\n" +
                 "BALANCE BIGINT\n" +
                 ");";
         statement.execute(sql);
         connection.commit();
+        System.out.println("Table " + Constants.TABLE_NAME + " has been successfully created");
     }
 
     private void addUser(Integer id, Long balance) throws SQLException {
