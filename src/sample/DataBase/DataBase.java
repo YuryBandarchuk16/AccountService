@@ -9,10 +9,12 @@ public class DataBase implements AccountService {
     private Connection connection;
     private Statement statement;
     private ResultSet resultSet;
+    private LRUCache<Integer, Long> cacheMemory;
 
     public DataBase() {
         connection = null;
         statement = null;
+        cacheMemory = new LRUCache<>(Constants.MAX_ELEMENTS_IN_CACHE);
         try {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(Constants.dataBaseURLAddress, Constants.adminName, Constants.adminPassword);
@@ -35,6 +37,10 @@ public class DataBase implements AccountService {
     }
 
     private void addUser(Integer id, Long balance) throws SQLException {
+        if (cacheMemory.containsKey(id)) {
+            cacheMemory.remove(id);
+        }
+        cacheMemory.put(id, balance);
         String sql = "INSERT INTO AccountService (ID, BALANCE)\n" +
                 "VALUES ('" + id + "','" + balance + "'" +
                 ");";
@@ -43,6 +49,9 @@ public class DataBase implements AccountService {
     }
 
     private void deleteUser(Integer id) throws SQLException {
+        if (cacheMemory.containsKey(id)) {
+            cacheMemory.remove(id);
+        }
         String sql = "DELETE FROM AccountService\n" +
                 "WHERE ID=" + id + ";";
         statement.execute(sql);
@@ -63,6 +72,9 @@ public class DataBase implements AccountService {
 
     @Override
     public Long getAmount(Integer id) throws SQLException {
+        if (cacheMemory.containsKey(id)) {
+            return cacheMemory.get(id); // cache optimization
+        }
         String sql = "SELECT BALANCE FROM AccountService WHERE ID=" + id + ";";
         resultSet = statement.executeQuery(sql);
         if (resultSet == null) {
@@ -78,6 +90,7 @@ public class DataBase implements AccountService {
                 called = true;
                 Long result = resultSet.getLong("BALANCE");
                 if (result != null) {
+                    cacheMemory.put(id, result);
                     return result;
                 }
             }
@@ -96,6 +109,9 @@ public class DataBase implements AccountService {
 
     @Override
     public void addAmount(Integer id, Long amount) throws SQLException {
+        if (amount == 0L) {
+            return;
+        }
         String sql = "SELECT BALANCE FROM AccountService WHERE ID=" + id + ";";
         resultSet = statement.executeQuery(sql);
         if (resultSet == null) {
@@ -104,6 +120,7 @@ public class DataBase implements AccountService {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            return;
         } else {
             Long currentBalance = 0L;
             while (resultSet.next()) {

@@ -23,6 +23,7 @@ public class Main extends Application {
         primaryStage.show();
         primaryStage.setOnCloseRequest(e -> Platform.exit());
         dataBase = new DataBase();
+        dataBase.createTable();
         accountService = dataBase;
     }
 
