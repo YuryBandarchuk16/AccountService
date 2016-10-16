@@ -1,0 +1,72 @@
+---------------------------------
+Total number of queries processed: 297
+Number of GET queries: 118
+Number of ADD queries: 179
+Total time of processing all the queries: 0.337
+Average time per query: 0.0011346801346801348
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 146
+Number of GET queries: 72
+Number of ADD queries: 74
+Total time of processing all the queries: 0.135
+Average time per query: 9.246575342465754E-4
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 289
+Number of GET queries: 115
+Number of ADD queries: 174
+Total time of processing all the queries: 0.239
+Average time per query: 8.269896193771626E-4
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 257
+Number of GET queries: 93
+Number of ADD queries: 164
+Total time of processing all the queries: 0.317
+Average time per query: 0.0012334630350194552
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 164
+Number of GET queries: 18
+Number of ADD queries: 146
+Total time of processing all the queries: 0.253
+Average time per query: 0.0015426829268292684
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 321
+Number of GET queries: 146
+Number of ADD queries: 175
+Total time of processing all the queries: 0.254
+Average time per query: 7.912772585669782E-4
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 170
+Number of GET queries: 166
+Number of ADD queries: 4
+Total time of processing all the queries: 0.009
+Average time per query: 5.294117647058823E-5
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 159
+Number of GET queries: 30
+Number of ADD queries: 129
+Total time of processing all the queries: 0.175
+Average time per query: 0.00110062893081761
+---------------------------------
+
+---------------------------------
+Total number of queries processed: 275
+Number of GET queries: 95
+Number of ADD queries: 180
+Total time of processing all the queries: 0.263
+Average time per query: 9.563636363636364E-4
+---------------------------------
+

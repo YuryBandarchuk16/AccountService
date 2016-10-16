@@ -6,6 +6,8 @@ import java.sql.*;
 
 public class DataBase implements AccountService {
 
+    private long runTimeOfLastExecutedCommand;
+
     private Connection connection;
     private Statement statement;
     private ResultSet resultSet;
@@ -86,7 +88,9 @@ public class DataBase implements AccountService {
 
     @Override
     public Long getAmount(Integer id) throws SQLException {
+        long startTime = System.currentTimeMillis();
         if (cacheMemory.containsKey(id)) {
+            runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
             return cacheMemory.get(id); // cache optimization
         }
         String sql = "SELECT BALANCE FROM AccountService WHERE ID=" + id + ";";
@@ -97,6 +101,7 @@ public class DataBase implements AccountService {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
             return 0L;
         } else {
             boolean called = false;
@@ -105,6 +110,7 @@ public class DataBase implements AccountService {
                 Long result = resultSet.getLong("BALANCE");
                 if (result != null) {
                     cacheMemory.put(id, result);
+                    runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
                     return result;
                 }
             }
@@ -114,6 +120,7 @@ public class DataBase implements AccountService {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+                runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
                 return 0L;
             } else {
                 throw new SQLDataException("Oops, something went wrong while reading BALANCE for the given ID");
@@ -123,7 +130,9 @@ public class DataBase implements AccountService {
 
     @Override
     public void addAmount(Integer id, Long amount) throws SQLException {
+        long startTime = System.currentTimeMillis();
         if (amount == 0L) {
+            runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
             return;
         }
         String sql = "SELECT BALANCE FROM AccountService WHERE ID=" + id + ";";
@@ -134,6 +143,7 @@ public class DataBase implements AccountService {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
             return;
         } else {
             Long currentBalance = 0L;
@@ -146,6 +156,12 @@ public class DataBase implements AccountService {
             currentBalance += amount; // updating balance with addAmount value
             deleteUser(id);
             addUser(id, currentBalance);
+            runTimeOfLastExecutedCommand = System.currentTimeMillis() - startTime;
         }
+    }
+
+    @Override
+    public long getRunTimeOfLastExecutedCommand() {
+        return runTimeOfLastExecutedCommand;
     }
 }

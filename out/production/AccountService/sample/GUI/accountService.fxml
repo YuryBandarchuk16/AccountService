@@ -59,5 +59,12 @@
                 <Font size="14.0" />
             </font>
         </Button>
+
+        <Button fx:id="runTest" layoutX="155.0" layoutY="180.0" mnemonicParsing="false" onAction="#runTestClicked" prefHeight="28.0" prefWidth="202.0" text="Run test threads">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+
     </children>
 </AnchorPane>

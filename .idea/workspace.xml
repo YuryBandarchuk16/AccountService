@@ -65,11 +65,13 @@
         <entry file="file://$PROJECT_DIR$/src/sample/GUI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1605#1606#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,52 +81,66 @@
         <entry file="file://$PROJECT_DIR$/src/sample/GUI/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4068#4069#0" expanded="true" />
-                <element signature="e#4119#4120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/DataBase/DataBase.java">
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/DataBase/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33251834">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1476530902000" expanded="true" signature="1474:1486" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1487" placeholder="CREATE TABLE... missingValue" />
-                <marker date="1476530902000" expanded="true" signature="1474:1539" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1541" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1569" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1606" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1630" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="1474:1633" placeholder="CREATE TABLE... AccountService" />
-                <marker date="1476530902000" expanded="true" signature="2020:2143" placeholder="INSERT INTO AccountService... " />
-                <marker date="1476530902000" expanded="true" signature="2388:2414" placeholder="DELETE FROM " />
-                <marker date="1476530902000" expanded="true" signature="2388:2446" placeholder="DELETE FROM " />
-                <marker date="1476530902000" expanded="true" signature="2388:2459" placeholder="DELETE FROM " />
-                <marker date="1476530902000" expanded="true" signature="2696:2707" placeholder="DROP TABLE m... " />
-                <marker date="1476530902000" expanded="true" signature="3144:3188" placeholder="SELECT BALAN... " />
-                <marker date="1476530902000" expanded="true" signature="4326:4370" placeholder="SELECT BALAN... " />
-              </folding>
+            <state vertical-scroll-proportion="0.8801956">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/DataBase/LRUCache.java">
+      <file leaf-file-name="accountService.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/GUI/accountService.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.528302">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +150,54 @@
         <entry file="file://$PROJECT_DIR$/src/sample/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/DataBase/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1476646585000" expanded="true" signature="1522:1534" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1535" placeholder="CREATE TABLE... missingValue" />
+                <marker date="1476646585000" expanded="true" signature="1522:1587" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1589" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1617" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1654" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1678" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="1522:1681" placeholder="CREATE TABLE... AccountService" />
+                <marker date="1476646585000" expanded="true" signature="2068:2191" placeholder="INSERT INTO AccountService... " />
+                <marker date="1476646585000" expanded="true" signature="2436:2462" placeholder="DELETE FROM " />
+                <marker date="1476646585000" expanded="true" signature="2436:2494" placeholder="DELETE FROM " />
+                <marker date="1476646585000" expanded="true" signature="2436:2507" placeholder="DELETE FROM " />
+                <marker date="1476646585000" expanded="true" signature="2744:2755" placeholder="DROP TABLE m... " />
+                <marker date="1476646585000" expanded="true" signature="3328:3372" placeholder="SELECT BALAN... " />
+                <marker date="1476646585000" expanded="true" signature="4907:4951" placeholder="SELECT BALAN... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,12 +229,19 @@
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/accountService.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/DataBase/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/sample/GUI/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/DataBase/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/sample/GUI/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Constants.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestingClient/arguments.properties" />
+        <option value="$PROJECT_DIR$/src/sample/DataBase/AccountService.java" />
         <option value="$PROJECT_DIR$/src/sample/DataBase/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestingClient/Task.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestingClient/TaskCreator.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestingClient/Tester.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestingClient/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/sample/Constants.java" />
+        <option value="$PROJECT_DIR$/src/sample/GUI/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/GUI/accountService.fxml" />
+        <option value="$PROJECT_DIR$/logs/log.txt" />
+        <option value="$PROJECT_DIR$/src/sample/GUI/Controller.java" />
       </list>
     </option>
   </component>
@@ -180,6 +249,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -273,7 +349,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="TestingClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DataBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,12 +914,12 @@
       <option name="number" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1476405158712" duration="9214000" />
+      <workItem from="1476405158712" duration="22362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10516000" />
+    <option name="totallyTimeSpent" value="23664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1280" height="722" extended-state="6" />
@@ -793,7 +927,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -851,8 +985,10 @@
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,8 +999,6 @@
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4068#4069#0" expanded="true" />
-            <element signature="e#4119#4120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,25 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GUI/accountService.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2625698">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DataBase/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2189781">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/postgresql-9.3-1103.jdbc3.jar!/org/postgresql/jdbc2/AbstractJdbc2ResultSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35798818">
@@ -904,29 +1019,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GUI/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/TaskCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4068#4069#0" expanded="true" />
-            <element signature="e#4119#4120#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DataBase/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2567237">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -936,40 +1041,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GUI/Main.java">
+    <entry file="file://$PROJECT_DIR$/AccountService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DataBase/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33251834">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1476530902000" expanded="true" signature="1474:1486" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1487" placeholder="CREATE TABLE... missingValue" />
-            <marker date="1476530902000" expanded="true" signature="1474:1539" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1541" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1569" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1606" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1630" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="1474:1633" placeholder="CREATE TABLE... AccountService" />
-            <marker date="1476530902000" expanded="true" signature="2020:2143" placeholder="INSERT INTO AccountService... " />
-            <marker date="1476530902000" expanded="true" signature="2388:2414" placeholder="DELETE FROM " />
-            <marker date="1476530902000" expanded="true" signature="2388:2446" placeholder="DELETE FROM " />
-            <marker date="1476530902000" expanded="true" signature="2388:2459" placeholder="DELETE FROM " />
-            <marker date="1476530902000" expanded="true" signature="2696:2707" placeholder="DROP TABLE m... " />
-            <marker date="1476530902000" expanded="true" signature="3144:3188" placeholder="SELECT BALAN... " />
-            <marker date="1476530902000" expanded="true" signature="4326:4370" placeholder="SELECT BALAN... " />
+            <marker date="1476646585000" expanded="true" signature="1522:1534" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1535" placeholder="CREATE TABLE... missingValue" />
+            <marker date="1476646585000" expanded="true" signature="1522:1587" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1589" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1617" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1654" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1678" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="1522:1681" placeholder="CREATE TABLE... AccountService" />
+            <marker date="1476646585000" expanded="true" signature="2068:2191" placeholder="INSERT INTO AccountService... " />
+            <marker date="1476646585000" expanded="true" signature="2436:2462" placeholder="DELETE FROM " />
+            <marker date="1476646585000" expanded="true" signature="2436:2494" placeholder="DELETE FROM " />
+            <marker date="1476646585000" expanded="true" signature="2436:2507" placeholder="DELETE FROM " />
+            <marker date="1476646585000" expanded="true" signature="2744:2755" placeholder="DROP TABLE m... " />
+            <marker date="1476646585000" expanded="true" signature="3328:3372" placeholder="SELECT BALAN... " />
+            <marker date="1476646585000" expanded="true" signature="4907:4951" placeholder="SELECT BALAN... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TestingClient/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GUI/accountService.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.528302">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GUI/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DataBase/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8801956">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

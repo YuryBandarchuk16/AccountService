@@ -18,7 +18,7 @@ import sample.Constants;
 public class Controller {
 
     @FXML
-    private Button addAmountButton, getBalanceButton;
+    private Button addAmountButton, getBalanceButton, runTest;
 
     @FXML
     private TextField idText, amountText, idTextQ, balanceText;
@@ -61,6 +61,12 @@ public class Controller {
             e.printStackTrace();
         }
         balanceText.setText(result);
+    }
+
+    @FXML
+    private void runTestClicked() {
+        Main.runTest();
+        createAlert("OK", "Testing has finished!\n  Check logs file");
     }
 
     private boolean isOnlyDigits(String s) {

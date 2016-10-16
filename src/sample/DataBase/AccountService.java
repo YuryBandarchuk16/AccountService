@@ -18,4 +18,10 @@ public interface AccountService {
     */
     void addAmount(Integer id, Long amount) throws Exception;
 
+    /*
+    * The method below is used in order to collect the statistics about the running time of each command
+    */
+
+    long getRunTimeOfLastExecutedCommand();
+
 }
