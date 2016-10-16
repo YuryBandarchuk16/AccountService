@@ -39,7 +39,7 @@ public class Tester extends Thread {
                 totalSpentTime += accountService.getRunTimeOfLastExecutedCommand();
             }
             try {
-                sleep(1L);
+                sleep(100L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
